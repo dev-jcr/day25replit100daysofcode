@@ -11,9 +11,7 @@ def roll_6_and_8():
   return health
 
 print("⚔️Character stats generator⚔️")
-
 haveACharacter = "yes"
-
 while haveACharacter == "yes":
   character = input("Name your warrior: ")
   health = str(roll_6_and_8())
